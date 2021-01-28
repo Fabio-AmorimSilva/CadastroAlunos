@@ -1,0 +1,16 @@
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/bin/Debug/net5.0/cadastroAlunos
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/bin/Debug/net5.0/cadastroAlunos.deps.json
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/bin/Debug/net5.0/cadastroAlunos.runtimeconfig.json
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/bin/Debug/net5.0/cadastroAlunos.runtimeconfig.dev.json
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/bin/Debug/net5.0/cadastroAlunos.dll
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/bin/Debug/net5.0/ref/cadastroAlunos.dll
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/bin/Debug/net5.0/cadastroAlunos.pdb
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.csprojAssemblyReference.cache
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.GeneratedMSBuildEditorConfig.editorconfig
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.AssemblyInfoInputs.cache
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.AssemblyInfo.cs
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.csproj.CoreCompileInputs.cache
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.dll
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/ref/cadastroAlunos.dll
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.pdb
+/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/Debug/net5.0/cadastroAlunos.genruntimeconfig.cache
