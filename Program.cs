@@ -6,7 +6,6 @@ Refatoração do Exemplo utilizando listas encadeadas para permitir o cresciment
 Fonte: Refatoração do Curso de Introdução ao .NET e C# da Digital Innovation One 
 */
 
-
 namespace cadastroAlunos
 {
     class Program
@@ -18,6 +17,7 @@ namespace cadastroAlunos
         List<Alunos> alunos = new List<Alunos>(); 
         float mediaGeral = 0;
         float notaTotal = 0;
+        string nomeAluno;
 
         string opUsuario = obterOpcaoUsuario();
 
@@ -26,12 +26,18 @@ namespace cadastroAlunos
                 switch(opUsuario){
                     //Adicionar alunos
                     case "1":
-                        Console.WriteLine("Informe o nome do aluno:");
-                        Alunos aluno = new Alunos();
-                        aluno.Nome = Console.ReadLine();
-                        Console.WriteLine("Informe a nota do aluno:");
-                        aluno.Nota = float.Parse(Console.ReadLine());
-                        alunos.Add(aluno);
+                        try{
+                            Console.WriteLine("Informe o nome do aluno:");
+                            Alunos aluno = new Alunos();
+                            aluno.Nome = Console.ReadLine();
+                            Console.WriteLine("Informe a nota do aluno:");
+                            aluno.Nota = float.Parse(Console.ReadLine());
+                            alunos.Add(aluno);
+
+                        }catch(Exception ex){
+                            Console.WriteLine($"{ex.GetType()}: {ex.Message}");
+
+                        }
                     break;
                     //Listar alunos
                     case "2":
@@ -59,17 +65,31 @@ namespace cadastroAlunos
                         Console.WriteLine("A média geral de todos os alunos é: " + mediaGeral);
                     break;
                     case "4":
-                        Console.WriteLine("Digite o nome do aluno a ser buscado: ");
-                        string nomeAluno = Console.ReadLine();
-                        buscaAluno(alunos, nomeAluno);
-                        Console.WriteLine();
+                        try{
+                            Console.WriteLine("Digite o nome do aluno a ser buscado: ");
+                            nomeAluno = Console.ReadLine();
+                            buscaAluno(alunos, nomeAluno);
+                            Console.WriteLine();
+
+                        }catch(Exception ex){
+                            Console.WriteLine($"{ex.GetType()}: {ex.Message}");
+
+                        }
                     break;
                     case "5":
-                        Console.WriteLine("Digite o nome do aluno a ser buscado: ");
-                        nomeAluno = Console.ReadLine();
-                        alteraAluno(alunos, nomeAluno);
-                        Console.WriteLine();
+                        try{
+                            Console.WriteLine("Digite o nome do aluno a ser buscado: ");
+                            nomeAluno = Console.ReadLine();
+                            alteraAluno(alunos, nomeAluno);
+                            Console.WriteLine();
+                            
+                        }catch(Exception ex){
+                            Console.WriteLine($"{ex.GetType()}: {ex.Message}");
+
+                        }
                     break;
+                    case "S":
+                    return;
                     default:
                     Console.WriteLine("Insira uma das opções listadas acima!");
                     Console.WriteLine();

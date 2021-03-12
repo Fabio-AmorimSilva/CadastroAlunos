@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/cadastroAlunos.csproj",
+      "projectUniqueName": "/home/fabio/Documentos/Linguagens de Programação/C#.NET/cadastroAlunos/cadastroAlunos/cadastroAlunos.csproj",
       "projectName": "cadastroAlunos",
-      "projectPath": "/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/cadastroAlunos.csproj",
+      "projectPath": "/home/fabio/Documentos/Linguagens de Programação/C#.NET/cadastroAlunos/cadastroAlunos/cadastroAlunos.csproj",
       "packagesPath": "/home/fabio/.nuget/packages/",
-      "outputPath": "/home/fabio/Documentos/Linguagens de Programação/.NET/cadastroAlunos/cadastroAlunos/obj/",
+      "outputPath": "/home/fabio/Documentos/Linguagens de Programação/C#.NET/cadastroAlunos/cadastroAlunos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fabio/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }
